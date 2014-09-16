@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			Ian is at work
+			<meta name="google-site-verification" content="9Prpn9nTZL8cv62Cf9p70Mf34vCr5nBlygoQZ_3vHtA" />
+		</title>
+		{% include html_head.html %}
+		
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div id="header">
+				    Ian is at Work
+				</div>
+			</div>	
+		</div>
+		
+		<div class="row">
+			<div class="span8">
+				<div id="menu"> 
+					<ul>
+						<li class="active"><a href="/">Home</a></li>
+						<li><a href="/blogs.html">Blog</a></li>
+				<!--		<li><a href="/algorithms.html">Algorithms</li>			-->			
+					 </ul>
+				</div>
+			</div>	
+		</div>
+		
+		<div class="row">
+			<div class="span8">
+				<div id="content">
+					<p>
+						{{ content }}
+					</p>		
+				</div>
+			</div>
+		</div>
+		{% include footer.html %}
+	</div>
+	</body>
+</html>
